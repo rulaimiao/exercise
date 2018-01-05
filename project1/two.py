@@ -16,7 +16,7 @@ print(one.start)
 print(one.stop)
 print(one.step)
 
-two = slice(0, 10,2)
+two = slice(0, 10, 2)
 ss = 'nishibushiwozuishenaideren'
 sss = two.indices(len(ss))
 print(type(sss))
