@@ -21,4 +21,7 @@ def dedupe(items, key=None):
             val = key(item)
         if val not in seen:
             yield item
-            seen.add(item)   
+            seen.add(val)   
+
+
+
