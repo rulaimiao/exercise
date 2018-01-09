@@ -10,6 +10,12 @@ import operator
     itemgetter 与 lambda 用法类似。
     但效率确实 lambad 的2.5倍左右。。
     
+    同理，，itemgetter 这个参数亦可以用于 
+    max()
+    min()
+
+    operator attrgetter
+    针对都是对象的属性, 用法，作用与itemgetter 相同
 
 '''
 
