@@ -18,5 +18,6 @@ print(c)
 print(c['x'])
 
 c = ChainMap(a, b)
-c['x'] = 3
-print(a['x'])
+c['y'] = 4
+print(a['y'])
+print(c)
